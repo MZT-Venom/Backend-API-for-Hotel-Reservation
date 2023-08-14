@@ -1,6 +1,6 @@
 const { default: mongoose } = require("mongoose");
 
-var dbURL = "mongodb+srv://zain:IC9CLHG7@cluster0.g2b92am.mongodb.net/bookings";
+var dbURL = "********";
 
 mongoose.connect(dbURL, { useUnifiedtopology: true, UseNewUrlParser: true });
 
